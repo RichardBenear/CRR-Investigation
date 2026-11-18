@@ -1,0 +1,113 @@
+Gravity Study redirect:
+
+CONTEXT
+
+Stages D through R exhaustively characterized self-maintenance, translation,
+and phase-bearing recurrence under the canonical Wolfram rule:
+
+    (x,y),(x,z) -> (x,z),(x,w),(y,w),(z,w)
+
+Two exact, architecture-level no-go theorems were proven along the way:
+
+  - L (relation-floor theorem): under this rule, every clean internal
+    producer transition satisfies rho_next <= rho_current -- the minimum
+    relation count of a predictive class can never increase via internal
+    dynamics. A destructive environmental event always drops it by at
+    least 1, and it can never be recovered internally.
+
+  - Q (causal-directionality no-go): every relation this rule ever creates
+    points from older, already-existing material toward the single fresh
+    node created in that event. No relation can ever point the other way.
+    This makes any cross-coupling between two subsystems (e.g. a
+    propagating core and an independent internal clock) strictly
+    one-directional and therefore unrenewable once consumed -- proven to
+    rule out ANY separate-event composition of propagation + phase.
+
+R additionally found that self-generated maintenance (without L/Q's
+theorems even entering into it) requires the two "frontier" targets of a
+translating source to already share a direct edge with each other. Through
+m=7, exactly one structure has this property -- the m=3, p=1 transitive
+triangle -- and it has no internal phase (p=1). Every p>1 phase-bearing
+recurrent structure found (428 phase states, m<=7) has independent,
+non-adjacent frontier targets, and therefore cannot self-maintain by any
+tested mechanism.
+
+THE PROPOSED RULE CHANGE
+
+Modify the rule to add one extra output relation: the fresh node w also
+gets an edge pointing BACK to the retired source x.
+
+    (x,y),(x,z) -> (x,z),(x,w),(y,w),(z,w),(w,x)
+
+Rationale: this directly targets both theorems at their assumptions, not
+just their conclusions.
+
+  - Relation count per clean event goes from 4 relations -> 4 relations
+    (net 0, the fact L's proof depends on) to 4 relations -> 5 relations
+    (net +1). L's argument requires clean events to be relation-count-
+    neutral; under this rule they are not, so the relation-floor
+    monotonicity argument does not apply.
+
+  - Every fresh node is now born with one outgoing edge (back to its
+    retired parent), rather than being a permanent causal sink that can
+    only ever receive edges. Q's proof depends on fresh nodes never having
+    outgoing structure. That assumption is now false by construction.
+
+WHAT TO ACTUALLY TEST, IN ORDER
+
+1. Baseline sanity check. Confirm the modified rule still supports a
+   recognizable notion of a persistent recurrent carrier. Take the m=4
+   biclique/diamond pair (M0/M1) and confirm the modified rule still
+   produces clean, well-defined p=2 recurrence when fired on it (it will
+   look structurally different given the extra edge -- report the new
+   relation counts and structure explicitly, don't assume it looks like
+   the old M0/M1).
+
+2. Re-verify whether L's premises actually fail as expected. Don't just
+   trust the single hand-computed example above -- rebuild the exhaustive
+   relation-floor census (the way L did) under the new rule and confirm
+   clean transitions are now net relation-positive across the full
+   reachable state space through at least m=6, not just in one example.
+
+3. Re-run R's frontier-adjacency diagnostic under the new rule's OWN
+   native recurrent structures (do not reuse the old rule's catalog --
+   find this rule's own p>1 cycles from scratch). Central question: with
+   fresh nodes no longer causally inert, does frontier-target adjacency
+   become common, rare, or still essentially absent? This is the single
+   most important number to report back.
+
+4. If p>1 structures with adjacent frontier targets are found, run the
+   SAME self-maintenance and contamination-survival pipeline used in
+   D/K/N/O on them -- do not just report existence. Specifically:
+     - exact/exhaustive check of whether damage can be internally repaired
+       (L/Q-style exhaustive census, not bounded search, if tractable)
+     - the natural-vacuum repair-rate measurement from stage N's
+       methodology (real evolved vacuum ensembles, not hand-injected pairs)
+     - the persistence-probability threshold calculation from stage O
+       (what repair rate is actually needed for long-run survival, and
+       does the measured rate clear it)
+
+5. MANDATORY CONTROL, given the pattern of this whole investigation: check
+   whether any newly-found self-maintenance property is specific to
+   phase-bearing (p>1) recurrent structures, or whether it's a generic
+   consequence of the rule change that shows up for ANY translating or
+   even non-recurrent structure. Report the comparison explicitly, the way
+   stage P did for the original rule.
+
+6. Vacuum sanity check. Before drawing any conclusions about matter, grow
+   this modified rule's own vacuum/background from a small seed (same
+   protocol as the original R14 dimension study) and check that it still
+   produces sensible, roughly stable emergent dimension rather than
+   pathological unbounded growth or collapse. A rule that fixes the
+   matter problem but destroys the vacuum's dimensional behavior is not
+   progress.
+
+REPORTING STANDARD
+
+Match the rigor and honesty of stages D through R: report exact counts
+where exhaustive, clearly label anything that is bounded-depth or
+sampled rather than exhaustive, and if the result is negative, say so
+plainly rather than reframing it as a smaller positive. If this modified
+rule produces its own clean no-go theorem, that is a valid and useful
+outcome -- report it with the same rigor as L and Q did for the original
+rule.

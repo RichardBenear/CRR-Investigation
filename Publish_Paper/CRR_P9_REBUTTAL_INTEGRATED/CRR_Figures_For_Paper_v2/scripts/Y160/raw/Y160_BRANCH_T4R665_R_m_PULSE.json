@@ -1,0 +1,5523 @@
+{
+  "species": "T4R665",
+  "geom": "R",
+  "sign": -1,
+  "ready": 2,
+  "cq": 24,
+  "branch": {
+    "kind": "PULSE",
+    "initial_choose": [
+      {
+        "i": 0,
+        "ok": true,
+        "reason": "OK",
+        "mag": 1,
+        "direction": -1,
+        "gate": [
+          4367,
+          406,
+          4375,
+          405,
+          4383
+        ],
+        "e": 405,
+        "f": 404
+      },
+      {
+        "i": 1,
+        "ok": true,
+        "reason": "OK",
+        "mag": 1,
+        "direction": -1,
+        "gate": [
+          4365,
+          412,
+          4373,
+          411,
+          4381
+        ],
+        "e": 411,
+        "f": 410
+      },
+      {
+        "i": 2,
+        "ok": true,
+        "reason": "OK",
+        "mag": 1,
+        "direction": -1,
+        "gate": [
+          4363,
+          418,
+          4371,
+          417,
+          4379
+        ],
+        "e": 417,
+        "f": 416
+      },
+      {
+        "i": 3,
+        "ok": true,
+        "reason": "OK",
+        "mag": 1,
+        "direction": -1,
+        "gate": [
+          4361,
+          423,
+          4369,
+          422,
+          4377
+        ],
+        "e": 422,
+        "f": 421
+      }
+    ],
+    "initial_sector_sizes": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "rounds": [
+      {
+        "round": 1,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4367,
+              406,
+              4375,
+              405,
+              4383
+            ],
+            "e": 405,
+            "f": 403
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4365,
+              412,
+              4373,
+              411,
+              4381
+            ],
+            "e": 411,
+            "f": 409
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4363,
+              418,
+              4371,
+              417,
+              4379
+            ],
+            "e": 417,
+            "f": 415
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4361,
+              423,
+              4369,
+              422,
+              4377
+            ],
+            "e": 422,
+            "f": 420
+          }
+        ],
+        "pre_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4367,
+              406,
+              4375,
+              405,
+              4383
+            ],
+            "e": 405,
+            "f": 403
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4365,
+              412,
+              4373,
+              411,
+              4381
+            ],
+            "e": 411,
+            "f": 409
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4363,
+              418,
+              4371,
+              417,
+              4379
+            ],
+            "e": 417,
+            "f": 415
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4361,
+              423,
+              4369,
+              422,
+              4377
+            ],
+            "e": 422,
+            "f": 420
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4361,
+                423,
+                4369,
+                422,
+                4377
+              ],
+              "e": 422,
+              "f": 420
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 422,
+            "f": 420,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4363,
+                418,
+                4371,
+                417,
+                4379
+              ],
+              "e": 417,
+              "f": 415
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 417,
+            "f": 415,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4365,
+                412,
+                4373,
+                411,
+                4381
+              ],
+              "e": 411,
+              "f": 409
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 411,
+            "f": 409,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4367,
+                406,
+                4375,
+                405,
+                4383
+              ],
+              "e": 405,
+              "f": 403
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 405,
+            "f": 403,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4375,
+              405,
+              4383,
+              403,
+              4391
+            ],
+            "e": 403,
+            "f": 402
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4373,
+              411,
+              4381,
+              409,
+              4389
+            ],
+            "e": 409,
+            "f": 408
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4371,
+              417,
+              4379,
+              415,
+              4387
+            ],
+            "e": 415,
+            "f": 414
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4369,
+              422,
+              4377,
+              420,
+              4385
+            ],
+            "e": 420,
+            "f": 419
+          }
+        ],
+        "post_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          1,
+          1,
+          4
+        ],
+        "cq": {
+          "nodes": 281,
+          "edges": 582,
+          "iso_prev": null
+        },
+        "all_v1_disp": 1,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 2,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4375,
+              405,
+              4383,
+              403,
+              4391
+            ],
+            "e": 403,
+            "f": 402
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4373,
+              411,
+              4381,
+              409,
+              4389
+            ],
+            "e": 409,
+            "f": 408
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4371,
+              417,
+              4379,
+              415,
+              4387
+            ],
+            "e": 415,
+            "f": 414
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4369,
+              422,
+              4377,
+              420,
+              4385
+            ],
+            "e": 420,
+            "f": 419
+          }
+        ],
+        "pre_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4375,
+              405,
+              4383,
+              403,
+              4391
+            ],
+            "e": 403,
+            "f": 402
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4373,
+              411,
+              4381,
+              409,
+              4389
+            ],
+            "e": 409,
+            "f": 408
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4371,
+              417,
+              4379,
+              415,
+              4387
+            ],
+            "e": 415,
+            "f": 414
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4369,
+              422,
+              4377,
+              420,
+              4385
+            ],
+            "e": 420,
+            "f": 419
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4369,
+                422,
+                4377,
+                420,
+                4385
+              ],
+              "e": 420,
+              "f": 419
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 420,
+            "f": 419,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4371,
+                417,
+                4379,
+                415,
+                4387
+              ],
+              "e": 415,
+              "f": 414
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 415,
+            "f": 414,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4373,
+                411,
+                4381,
+                409,
+                4389
+              ],
+              "e": 409,
+              "f": 408
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 409,
+            "f": 408,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4375,
+                405,
+                4383,
+                403,
+                4391
+              ],
+              "e": 403,
+              "f": 402
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 403,
+            "f": 402,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4383,
+              403,
+              4391,
+              402,
+              4399
+            ],
+            "e": 402,
+            "f": 400
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4381,
+              409,
+              4389,
+              408,
+              4397
+            ],
+            "e": 408,
+            "f": 406
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4379,
+              415,
+              4387,
+              414,
+              4395
+            ],
+            "e": 414,
+            "f": 412
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4377,
+              420,
+              4385,
+              419,
+              4393
+            ],
+            "e": 419,
+            "f": 417
+          }
+        ],
+        "post_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          2,
+          2,
+          4
+        ],
+        "cq": {
+          "nodes": 287,
+          "edges": 609,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 3,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4383,
+              403,
+              4391,
+              402,
+              4399
+            ],
+            "e": 402,
+            "f": 400
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4381,
+              409,
+              4389,
+              408,
+              4397
+            ],
+            "e": 408,
+            "f": 406
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4379,
+              415,
+              4387,
+              414,
+              4395
+            ],
+            "e": 414,
+            "f": 412
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4377,
+              420,
+              4385,
+              419,
+              4393
+            ],
+            "e": 419,
+            "f": 417
+          }
+        ],
+        "pre_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4383,
+              403,
+              4391,
+              402,
+              4399
+            ],
+            "e": 402,
+            "f": 400
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4381,
+              409,
+              4389,
+              408,
+              4397
+            ],
+            "e": 408,
+            "f": 406
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4379,
+              415,
+              4387,
+              414,
+              4395
+            ],
+            "e": 414,
+            "f": 412
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4377,
+              420,
+              4385,
+              419,
+              4393
+            ],
+            "e": 419,
+            "f": 417
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4377,
+                420,
+                4385,
+                419,
+                4393
+              ],
+              "e": 419,
+              "f": 417
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 419,
+            "f": 417,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4379,
+                415,
+                4387,
+                414,
+                4395
+              ],
+              "e": 414,
+              "f": 412
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 414,
+            "f": 412,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4381,
+                409,
+                4389,
+                408,
+                4397
+              ],
+              "e": 408,
+              "f": 406
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 408,
+            "f": 406,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4383,
+                403,
+                4391,
+                402,
+                4399
+              ],
+              "e": 402,
+              "f": 400
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 402,
+            "f": 400,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4391,
+              402,
+              4399,
+              400,
+              4407
+            ],
+            "e": 400,
+            "f": 399
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4389,
+              408,
+              4397,
+              406,
+              4405
+            ],
+            "e": 406,
+            "f": 405
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4387,
+              414,
+              4395,
+              412,
+              4403
+            ],
+            "e": 412,
+            "f": 411
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4385,
+              419,
+              4393,
+              417,
+              4401
+            ],
+            "e": 417,
+            "f": 416
+          }
+        ],
+        "post_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          1,
+          1,
+          4
+        ],
+        "cq": {
+          "nodes": 279,
+          "edges": 585,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 4,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4391,
+              402,
+              4399,
+              400,
+              4407
+            ],
+            "e": 400,
+            "f": 399
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4389,
+              408,
+              4397,
+              406,
+              4405
+            ],
+            "e": 406,
+            "f": 405
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4387,
+              414,
+              4395,
+              412,
+              4403
+            ],
+            "e": 412,
+            "f": 411
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4385,
+              419,
+              4393,
+              417,
+              4401
+            ],
+            "e": 417,
+            "f": 416
+          }
+        ],
+        "pre_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4391,
+              402,
+              4399,
+              400,
+              4407
+            ],
+            "e": 400,
+            "f": 399
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4389,
+              408,
+              4397,
+              406,
+              4405
+            ],
+            "e": 406,
+            "f": 405
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4387,
+              414,
+              4395,
+              412,
+              4403
+            ],
+            "e": 412,
+            "f": 411
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4385,
+              419,
+              4393,
+              417,
+              4401
+            ],
+            "e": 417,
+            "f": 416
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4385,
+                419,
+                4393,
+                417,
+                4401
+              ],
+              "e": 417,
+              "f": 416
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 417,
+            "f": 416,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4387,
+                414,
+                4395,
+                412,
+                4403
+              ],
+              "e": 412,
+              "f": 411
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 412,
+            "f": 411,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4389,
+                408,
+                4397,
+                406,
+                4405
+              ],
+              "e": 406,
+              "f": 405
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 406,
+            "f": 405,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4391,
+                402,
+                4399,
+                400,
+                4407
+              ],
+              "e": 400,
+              "f": 399
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 400,
+            "f": 399,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4399,
+              400,
+              4407,
+              399,
+              4415
+            ],
+            "e": 399,
+            "f": 397
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4397,
+              406,
+              4405,
+              405,
+              4413
+            ],
+            "e": 405,
+            "f": 403
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4395,
+              412,
+              4403,
+              411,
+              4411
+            ],
+            "e": 411,
+            "f": 409
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4393,
+              417,
+              4401,
+              416,
+              4409
+            ],
+            "e": 416,
+            "f": 414
+          }
+        ],
+        "post_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          2,
+          2,
+          5
+        ],
+        "cq": {
+          "nodes": 281,
+          "edges": 600,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 5,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4399,
+              400,
+              4407,
+              399,
+              4415
+            ],
+            "e": 399,
+            "f": 397
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4397,
+              406,
+              4405,
+              405,
+              4413
+            ],
+            "e": 405,
+            "f": 403
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4395,
+              412,
+              4403,
+              411,
+              4411
+            ],
+            "e": 411,
+            "f": 409
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4393,
+              417,
+              4401,
+              416,
+              4409
+            ],
+            "e": 416,
+            "f": 414
+          }
+        ],
+        "pre_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4399,
+              400,
+              4407,
+              399,
+              4415
+            ],
+            "e": 399,
+            "f": 397
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4397,
+              406,
+              4405,
+              405,
+              4413
+            ],
+            "e": 405,
+            "f": 403
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4395,
+              412,
+              4403,
+              411,
+              4411
+            ],
+            "e": 411,
+            "f": 409
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4393,
+              417,
+              4401,
+              416,
+              4409
+            ],
+            "e": 416,
+            "f": 414
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4393,
+                417,
+                4401,
+                416,
+                4409
+              ],
+              "e": 416,
+              "f": 414
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 416,
+            "f": 414,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4395,
+                412,
+                4403,
+                411,
+                4411
+              ],
+              "e": 411,
+              "f": 409
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 411,
+            "f": 409,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4397,
+                406,
+                4405,
+                405,
+                4413
+              ],
+              "e": 405,
+              "f": 403
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 405,
+            "f": 403,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4399,
+                400,
+                4407,
+                399,
+                4415
+              ],
+              "e": 399,
+              "f": 397
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 399,
+            "f": 397,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4407,
+              399,
+              4415,
+              397,
+              4423
+            ],
+            "e": 397,
+            "f": 396
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4405,
+              405,
+              4413,
+              403,
+              4421
+            ],
+            "e": 403,
+            "f": 402
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4403,
+              411,
+              4411,
+              409,
+              4419
+            ],
+            "e": 409,
+            "f": 408
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4401,
+              416,
+              4409,
+              414,
+              4417
+            ],
+            "e": 414,
+            "f": 413
+          }
+        ],
+        "post_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          1,
+          1,
+          4
+        ],
+        "cq": {
+          "nodes": 273,
+          "edges": 579,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 6,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4407,
+              399,
+              4415,
+              397,
+              4423
+            ],
+            "e": 397,
+            "f": 396
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4405,
+              405,
+              4413,
+              403,
+              4421
+            ],
+            "e": 403,
+            "f": 402
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4403,
+              411,
+              4411,
+              409,
+              4419
+            ],
+            "e": 409,
+            "f": 408
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4401,
+              416,
+              4409,
+              414,
+              4417
+            ],
+            "e": 414,
+            "f": 413
+          }
+        ],
+        "pre_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4407,
+              399,
+              4415,
+              397,
+              4423
+            ],
+            "e": 397,
+            "f": 396
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4405,
+              405,
+              4413,
+              403,
+              4421
+            ],
+            "e": 403,
+            "f": 402
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4403,
+              411,
+              4411,
+              409,
+              4419
+            ],
+            "e": 409,
+            "f": 408
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4401,
+              416,
+              4409,
+              414,
+              4417
+            ],
+            "e": 414,
+            "f": 413
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4401,
+                416,
+                4409,
+                414,
+                4417
+              ],
+              "e": 414,
+              "f": 413
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 414,
+            "f": 413,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4403,
+                411,
+                4411,
+                409,
+                4419
+              ],
+              "e": 409,
+              "f": 408
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 409,
+            "f": 408,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4405,
+                405,
+                4413,
+                403,
+                4421
+              ],
+              "e": 403,
+              "f": 402
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 403,
+            "f": 402,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4407,
+                399,
+                4415,
+                397,
+                4423
+              ],
+              "e": 397,
+              "f": 396
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 397,
+            "f": 396,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4415,
+              397,
+              4423,
+              396,
+              4431
+            ],
+            "e": 396,
+            "f": 394
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4413,
+              403,
+              4421,
+              402,
+              4429
+            ],
+            "e": 402,
+            "f": 400
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4411,
+              409,
+              4419,
+              408,
+              4427
+            ],
+            "e": 408,
+            "f": 406
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4409,
+              414,
+              4417,
+              413,
+              4425
+            ],
+            "e": 413,
+            "f": 411
+          }
+        ],
+        "post_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          2,
+          2,
+          5
+        ],
+        "cq": {
+          "nodes": 278,
+          "edges": 597,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 7,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4415,
+              397,
+              4423,
+              396,
+              4431
+            ],
+            "e": 396,
+            "f": 394
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4413,
+              403,
+              4421,
+              402,
+              4429
+            ],
+            "e": 402,
+            "f": 400
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4411,
+              409,
+              4419,
+              408,
+              4427
+            ],
+            "e": 408,
+            "f": 406
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4409,
+              414,
+              4417,
+              413,
+              4425
+            ],
+            "e": 413,
+            "f": 411
+          }
+        ],
+        "pre_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4415,
+              397,
+              4423,
+              396,
+              4431
+            ],
+            "e": 396,
+            "f": 394
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4413,
+              403,
+              4421,
+              402,
+              4429
+            ],
+            "e": 402,
+            "f": 400
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4411,
+              409,
+              4419,
+              408,
+              4427
+            ],
+            "e": 408,
+            "f": 406
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4409,
+              414,
+              4417,
+              413,
+              4425
+            ],
+            "e": 413,
+            "f": 411
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4409,
+                414,
+                4417,
+                413,
+                4425
+              ],
+              "e": 413,
+              "f": 411
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 413,
+            "f": 411,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4411,
+                409,
+                4419,
+                408,
+                4427
+              ],
+              "e": 408,
+              "f": 406
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 408,
+            "f": 406,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4413,
+                403,
+                4421,
+                402,
+                4429
+              ],
+              "e": 402,
+              "f": 400
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 402,
+            "f": 400,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4415,
+                397,
+                4423,
+                396,
+                4431
+              ],
+              "e": 396,
+              "f": 394
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 396,
+            "f": 394,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4423,
+              396,
+              4431,
+              394,
+              4439
+            ],
+            "e": 394,
+            "f": 393
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4421,
+              402,
+              4429,
+              400,
+              4437
+            ],
+            "e": 400,
+            "f": 399
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4419,
+              408,
+              4427,
+              406,
+              4435
+            ],
+            "e": 406,
+            "f": 405
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4417,
+              413,
+              4425,
+              411,
+              4433
+            ],
+            "e": 411,
+            "f": 410
+          }
+        ],
+        "post_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          1,
+          1,
+          4
+        ],
+        "cq": {
+          "nodes": 271,
+          "edges": 579,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 8,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4423,
+              396,
+              4431,
+              394,
+              4439
+            ],
+            "e": 394,
+            "f": 393
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4421,
+              402,
+              4429,
+              400,
+              4437
+            ],
+            "e": 400,
+            "f": 399
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4419,
+              408,
+              4427,
+              406,
+              4435
+            ],
+            "e": 406,
+            "f": 405
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4417,
+              413,
+              4425,
+              411,
+              4433
+            ],
+            "e": 411,
+            "f": 410
+          }
+        ],
+        "pre_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4423,
+              396,
+              4431,
+              394,
+              4439
+            ],
+            "e": 394,
+            "f": 393
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4421,
+              402,
+              4429,
+              400,
+              4437
+            ],
+            "e": 400,
+            "f": 399
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4419,
+              408,
+              4427,
+              406,
+              4435
+            ],
+            "e": 406,
+            "f": 405
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4417,
+              413,
+              4425,
+              411,
+              4433
+            ],
+            "e": 411,
+            "f": 410
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4417,
+                413,
+                4425,
+                411,
+                4433
+              ],
+              "e": 411,
+              "f": 410
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 411,
+            "f": 410,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4419,
+                408,
+                4427,
+                406,
+                4435
+              ],
+              "e": 406,
+              "f": 405
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 406,
+            "f": 405,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4421,
+                402,
+                4429,
+                400,
+                4437
+              ],
+              "e": 400,
+              "f": 399
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 400,
+            "f": 399,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4423,
+                396,
+                4431,
+                394,
+                4439
+              ],
+              "e": 394,
+              "f": 393
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 394,
+            "f": 393,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4431,
+              394,
+              4439,
+              393,
+              4447
+            ],
+            "e": 393,
+            "f": 391
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4429,
+              400,
+              4437,
+              399,
+              4445
+            ],
+            "e": 399,
+            "f": 397
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4427,
+              406,
+              4435,
+              405,
+              4443
+            ],
+            "e": 405,
+            "f": 403
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4425,
+              411,
+              4433,
+              410,
+              4441
+            ],
+            "e": 410,
+            "f": 408
+          }
+        ],
+        "post_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          2,
+          2,
+          5
+        ],
+        "cq": {
+          "nodes": 275,
+          "edges": 594,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 9,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4431,
+              394,
+              4439,
+              393,
+              4447
+            ],
+            "e": 393,
+            "f": 391
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4429,
+              400,
+              4437,
+              399,
+              4445
+            ],
+            "e": 399,
+            "f": 397
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4427,
+              406,
+              4435,
+              405,
+              4443
+            ],
+            "e": 405,
+            "f": 403
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4425,
+              411,
+              4433,
+              410,
+              4441
+            ],
+            "e": 410,
+            "f": 408
+          }
+        ],
+        "pre_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4431,
+              394,
+              4439,
+              393,
+              4447
+            ],
+            "e": 393,
+            "f": 391
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4429,
+              400,
+              4437,
+              399,
+              4445
+            ],
+            "e": 399,
+            "f": 397
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4427,
+              406,
+              4435,
+              405,
+              4443
+            ],
+            "e": 405,
+            "f": 403
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4425,
+              411,
+              4433,
+              410,
+              4441
+            ],
+            "e": 410,
+            "f": 408
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4425,
+                411,
+                4433,
+                410,
+                4441
+              ],
+              "e": 410,
+              "f": 408
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 410,
+            "f": 408,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4427,
+                406,
+                4435,
+                405,
+                4443
+              ],
+              "e": 405,
+              "f": 403
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 405,
+            "f": 403,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4429,
+                400,
+                4437,
+                399,
+                4445
+              ],
+              "e": 399,
+              "f": 397
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 399,
+            "f": 397,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4431,
+                394,
+                4439,
+                393,
+                4447
+              ],
+              "e": 393,
+              "f": 391
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 393,
+            "f": 391,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4439,
+              393,
+              4447,
+              391,
+              4455
+            ],
+            "e": 391,
+            "f": 390
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4437,
+              399,
+              4445,
+              397,
+              4453
+            ],
+            "e": 397,
+            "f": 396
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4435,
+              405,
+              4443,
+              403,
+              4451
+            ],
+            "e": 403,
+            "f": 402
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4433,
+              410,
+              4441,
+              408,
+              4449
+            ],
+            "e": 408,
+            "f": 407
+          }
+        ],
+        "post_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          1,
+          1,
+          4
+        ],
+        "cq": {
+          "nodes": 266,
+          "edges": 573,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 10,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4439,
+              393,
+              4447,
+              391,
+              4455
+            ],
+            "e": 391,
+            "f": 390
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4437,
+              399,
+              4445,
+              397,
+              4453
+            ],
+            "e": 397,
+            "f": 396
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4435,
+              405,
+              4443,
+              403,
+              4451
+            ],
+            "e": 403,
+            "f": 402
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4433,
+              410,
+              4441,
+              408,
+              4449
+            ],
+            "e": 408,
+            "f": 407
+          }
+        ],
+        "pre_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4439,
+              393,
+              4447,
+              391,
+              4455
+            ],
+            "e": 391,
+            "f": 390
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4437,
+              399,
+              4445,
+              397,
+              4453
+            ],
+            "e": 397,
+            "f": 396
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4435,
+              405,
+              4443,
+              403,
+              4451
+            ],
+            "e": 403,
+            "f": 402
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4433,
+              410,
+              4441,
+              408,
+              4449
+            ],
+            "e": 408,
+            "f": 407
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4433,
+                410,
+                4441,
+                408,
+                4449
+              ],
+              "e": 408,
+              "f": 407
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 408,
+            "f": 407,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4435,
+                405,
+                4443,
+                403,
+                4451
+              ],
+              "e": 403,
+              "f": 402
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 403,
+            "f": 402,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4437,
+                399,
+                4445,
+                397,
+                4453
+              ],
+              "e": 397,
+              "f": 396
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 397,
+            "f": 396,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4439,
+                393,
+                4447,
+                391,
+                4455
+              ],
+              "e": 391,
+              "f": 390
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 391,
+            "f": 390,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4447,
+              391,
+              4455,
+              390,
+              4463
+            ],
+            "e": 390,
+            "f": 388
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4445,
+              397,
+              4453,
+              396,
+              4461
+            ],
+            "e": 396,
+            "f": 394
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4443,
+              403,
+              4451,
+              402,
+              4459
+            ],
+            "e": 402,
+            "f": 400
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4441,
+              408,
+              4449,
+              407,
+              4457
+            ],
+            "e": 407,
+            "f": 405
+          }
+        ],
+        "post_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          2,
+          2,
+          5
+        ],
+        "cq": {
+          "nodes": 270,
+          "edges": 588,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 11,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4447,
+              391,
+              4455,
+              390,
+              4463
+            ],
+            "e": 390,
+            "f": 388
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4445,
+              397,
+              4453,
+              396,
+              4461
+            ],
+            "e": 396,
+            "f": 394
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4443,
+              403,
+              4451,
+              402,
+              4459
+            ],
+            "e": 402,
+            "f": 400
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4441,
+              408,
+              4449,
+              407,
+              4457
+            ],
+            "e": 407,
+            "f": 405
+          }
+        ],
+        "pre_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4447,
+              391,
+              4455,
+              390,
+              4463
+            ],
+            "e": 390,
+            "f": 388
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4445,
+              397,
+              4453,
+              396,
+              4461
+            ],
+            "e": 396,
+            "f": 394
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4443,
+              403,
+              4451,
+              402,
+              4459
+            ],
+            "e": 402,
+            "f": 400
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4441,
+              408,
+              4449,
+              407,
+              4457
+            ],
+            "e": 407,
+            "f": 405
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4441,
+                408,
+                4449,
+                407,
+                4457
+              ],
+              "e": 407,
+              "f": 405
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 407,
+            "f": 405,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4443,
+                403,
+                4451,
+                402,
+                4459
+              ],
+              "e": 402,
+              "f": 400
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 402,
+            "f": 400,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4445,
+                397,
+                4453,
+                396,
+                4461
+              ],
+              "e": 396,
+              "f": 394
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 396,
+            "f": 394,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4447,
+                391,
+                4455,
+                390,
+                4463
+              ],
+              "e": 390,
+              "f": 388
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 390,
+            "f": 388,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4455,
+              390,
+              4463,
+              388,
+              4471
+            ],
+            "e": 388,
+            "f": 387
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4453,
+              396,
+              4461,
+              394,
+              4469
+            ],
+            "e": 394,
+            "f": 393
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4451,
+              402,
+              4459,
+              400,
+              4467
+            ],
+            "e": 400,
+            "f": 399
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4449,
+              407,
+              4457,
+              405,
+              4465
+            ],
+            "e": 405,
+            "f": 404
+          }
+        ],
+        "post_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          1,
+          1,
+          4
+        ],
+        "cq": {
+          "nodes": 265,
+          "edges": 573,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 12,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4455,
+              390,
+              4463,
+              388,
+              4471
+            ],
+            "e": 388,
+            "f": 387
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4453,
+              396,
+              4461,
+              394,
+              4469
+            ],
+            "e": 394,
+            "f": 393
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4451,
+              402,
+              4459,
+              400,
+              4467
+            ],
+            "e": 400,
+            "f": 399
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4449,
+              407,
+              4457,
+              405,
+              4465
+            ],
+            "e": 405,
+            "f": 404
+          }
+        ],
+        "pre_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4455,
+              390,
+              4463,
+              388,
+              4471
+            ],
+            "e": 388,
+            "f": 387
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4453,
+              396,
+              4461,
+              394,
+              4469
+            ],
+            "e": 394,
+            "f": 393
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4451,
+              402,
+              4459,
+              400,
+              4467
+            ],
+            "e": 400,
+            "f": 399
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4449,
+              407,
+              4457,
+              405,
+              4465
+            ],
+            "e": 405,
+            "f": 404
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4449,
+                407,
+                4457,
+                405,
+                4465
+              ],
+              "e": 405,
+              "f": 404
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 405,
+            "f": 404,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4451,
+                402,
+                4459,
+                400,
+                4467
+              ],
+              "e": 400,
+              "f": 399
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 400,
+            "f": 399,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4453,
+                396,
+                4461,
+                394,
+                4469
+              ],
+              "e": 394,
+              "f": 393
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 394,
+            "f": 393,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4455,
+                390,
+                4463,
+                388,
+                4471
+              ],
+              "e": 388,
+              "f": 387
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 388,
+            "f": 387,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4463,
+              388,
+              4471,
+              387,
+              4479
+            ],
+            "e": 387,
+            "f": 385
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4461,
+              394,
+              4469,
+              393,
+              4477
+            ],
+            "e": 393,
+            "f": 391
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4459,
+              400,
+              4467,
+              399,
+              4475
+            ],
+            "e": 399,
+            "f": 397
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4457,
+              405,
+              4465,
+              404,
+              4473
+            ],
+            "e": 404,
+            "f": 402
+          }
+        ],
+        "post_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          2,
+          2,
+          5
+        ],
+        "cq": {
+          "nodes": 269,
+          "edges": 588,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 13,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4463,
+              388,
+              4471,
+              387,
+              4479
+            ],
+            "e": 387,
+            "f": 385
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4461,
+              394,
+              4469,
+              393,
+              4477
+            ],
+            "e": 393,
+            "f": 391
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4459,
+              400,
+              4467,
+              399,
+              4475
+            ],
+            "e": 399,
+            "f": 397
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4457,
+              405,
+              4465,
+              404,
+              4473
+            ],
+            "e": 404,
+            "f": 402
+          }
+        ],
+        "pre_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4463,
+              388,
+              4471,
+              387,
+              4479
+            ],
+            "e": 387,
+            "f": 385
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4461,
+              394,
+              4469,
+              393,
+              4477
+            ],
+            "e": 393,
+            "f": 391
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4459,
+              400,
+              4467,
+              399,
+              4475
+            ],
+            "e": 399,
+            "f": 397
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4457,
+              405,
+              4465,
+              404,
+              4473
+            ],
+            "e": 404,
+            "f": 402
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4457,
+                405,
+                4465,
+                404,
+                4473
+              ],
+              "e": 404,
+              "f": 402
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 404,
+            "f": 402,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4459,
+                400,
+                4467,
+                399,
+                4475
+              ],
+              "e": 399,
+              "f": 397
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 399,
+            "f": 397,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4461,
+                394,
+                4469,
+                393,
+                4477
+              ],
+              "e": 393,
+              "f": 391
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 393,
+            "f": 391,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4463,
+                388,
+                4471,
+                387,
+                4479
+              ],
+              "e": 387,
+              "f": 385
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 387,
+            "f": 385,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4471,
+              387,
+              4479,
+              385,
+              4487
+            ],
+            "e": 385,
+            "f": 384
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4469,
+              393,
+              4477,
+              391,
+              4485
+            ],
+            "e": 391,
+            "f": 390
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4467,
+              399,
+              4475,
+              397,
+              4483
+            ],
+            "e": 397,
+            "f": 396
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4465,
+              404,
+              4473,
+              402,
+              4481
+            ],
+            "e": 402,
+            "f": 401
+          }
+        ],
+        "post_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          1,
+          1,
+          4
+        ],
+        "cq": {
+          "nodes": 261,
+          "edges": 567,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 14,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4471,
+              387,
+              4479,
+              385,
+              4487
+            ],
+            "e": 385,
+            "f": 384
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4469,
+              393,
+              4477,
+              391,
+              4485
+            ],
+            "e": 391,
+            "f": 390
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4467,
+              399,
+              4475,
+              397,
+              4483
+            ],
+            "e": 397,
+            "f": 396
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4465,
+              404,
+              4473,
+              402,
+              4481
+            ],
+            "e": 402,
+            "f": 401
+          }
+        ],
+        "pre_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4471,
+              387,
+              4479,
+              385,
+              4487
+            ],
+            "e": 385,
+            "f": 384
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4469,
+              393,
+              4477,
+              391,
+              4485
+            ],
+            "e": 391,
+            "f": 390
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4467,
+              399,
+              4475,
+              397,
+              4483
+            ],
+            "e": 397,
+            "f": 396
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4465,
+              404,
+              4473,
+              402,
+              4481
+            ],
+            "e": 402,
+            "f": 401
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4465,
+                404,
+                4473,
+                402,
+                4481
+              ],
+              "e": 402,
+              "f": 401
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 402,
+            "f": 401,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4467,
+                399,
+                4475,
+                397,
+                4483
+              ],
+              "e": 397,
+              "f": 396
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 397,
+            "f": 396,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4469,
+                393,
+                4477,
+                391,
+                4485
+              ],
+              "e": 391,
+              "f": 390
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 391,
+            "f": 390,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4471,
+                387,
+                4479,
+                385,
+                4487
+              ],
+              "e": 385,
+              "f": 384
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 385,
+            "f": 384,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4479,
+              385,
+              4487,
+              384,
+              4495
+            ],
+            "e": 384,
+            "f": 382
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4477,
+              391,
+              4485,
+              390,
+              4493
+            ],
+            "e": 390,
+            "f": 388
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4475,
+              397,
+              4483,
+              396,
+              4491
+            ],
+            "e": 396,
+            "f": 394
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4473,
+              402,
+              4481,
+              401,
+              4489
+            ],
+            "e": 401,
+            "f": 399
+          }
+        ],
+        "post_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          2,
+          2,
+          5
+        ],
+        "cq": {
+          "nodes": 265,
+          "edges": 582,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 15,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4479,
+              385,
+              4487,
+              384,
+              4495
+            ],
+            "e": 384,
+            "f": 382
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4477,
+              391,
+              4485,
+              390,
+              4493
+            ],
+            "e": 390,
+            "f": 388
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4475,
+              397,
+              4483,
+              396,
+              4491
+            ],
+            "e": 396,
+            "f": 394
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4473,
+              402,
+              4481,
+              401,
+              4489
+            ],
+            "e": 401,
+            "f": 399
+          }
+        ],
+        "pre_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4479,
+              385,
+              4487,
+              384,
+              4495
+            ],
+            "e": 384,
+            "f": 382
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4477,
+              391,
+              4485,
+              390,
+              4493
+            ],
+            "e": 390,
+            "f": 388
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4475,
+              397,
+              4483,
+              396,
+              4491
+            ],
+            "e": 396,
+            "f": 394
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4473,
+              402,
+              4481,
+              401,
+              4489
+            ],
+            "e": 401,
+            "f": 399
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4473,
+                402,
+                4481,
+                401,
+                4489
+              ],
+              "e": 401,
+              "f": 399
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 401,
+            "f": 399,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4475,
+                397,
+                4483,
+                396,
+                4491
+              ],
+              "e": 396,
+              "f": 394
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 396,
+            "f": 394,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4477,
+                391,
+                4485,
+                390,
+                4493
+              ],
+              "e": 390,
+              "f": 388
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 390,
+            "f": 388,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 2,
+              "direction": -1,
+              "gate": [
+                4479,
+                385,
+                4487,
+                384,
+                4495
+              ],
+              "e": 384,
+              "f": 382
+            },
+            "atomic_native_mag": 2,
+            "atomic_native_sign": -1,
+            "selected_e": 384,
+            "f": 382,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4487,
+              384,
+              4495,
+              382,
+              4503
+            ],
+            "e": 382,
+            "f": 381
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4485,
+              390,
+              4493,
+              388,
+              4501
+            ],
+            "e": 388,
+            "f": 387
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4483,
+              396,
+              4491,
+              394,
+              4499
+            ],
+            "e": 394,
+            "f": 393
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4481,
+              401,
+              4489,
+              399,
+              4497
+            ],
+            "e": 399,
+            "f": 398
+          }
+        ],
+        "post_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          1,
+          1,
+          4
+        ],
+        "cq": {
+          "nodes": 261,
+          "edges": 567,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      },
+      {
+        "round": 16,
+        "prechoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4487,
+              384,
+              4495,
+              382,
+              4503
+            ],
+            "e": 382,
+            "f": 381
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4485,
+              390,
+              4493,
+              388,
+              4501
+            ],
+            "e": 388,
+            "f": 387
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4483,
+              396,
+              4491,
+              394,
+              4499
+            ],
+            "e": 394,
+            "f": 393
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4481,
+              401,
+              4489,
+              399,
+              4497
+            ],
+            "e": 399,
+            "f": 398
+          }
+        ],
+        "pre_sector_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "clamp_deleted": 0,
+        "clamp_deleted_rels": [],
+        "postdelete_choose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4487,
+              384,
+              4495,
+              382,
+              4503
+            ],
+            "e": 382,
+            "f": 381
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4485,
+              390,
+              4493,
+              388,
+              4501
+            ],
+            "e": 388,
+            "f": 387
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4483,
+              396,
+              4491,
+              394,
+              4499
+            ],
+            "e": 394,
+            "f": 393
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 1,
+            "direction": -1,
+            "gate": [
+              4481,
+              401,
+              4489,
+              399,
+              4497
+            ],
+            "e": 399,
+            "f": 398
+          }
+        ],
+        "events": [
+          {
+            "i": 3,
+            "choose": {
+              "i": 3,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4481,
+                401,
+                4489,
+                399,
+                4497
+              ],
+              "e": 399,
+              "f": 398
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 399,
+            "f": 398,
+            "gate": null
+          },
+          {
+            "i": 2,
+            "choose": {
+              "i": 2,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4483,
+                396,
+                4491,
+                394,
+                4499
+              ],
+              "e": 394,
+              "f": 393
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 394,
+            "f": 393,
+            "gate": null
+          },
+          {
+            "i": 1,
+            "choose": {
+              "i": 1,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4485,
+                390,
+                4493,
+                388,
+                4501
+              ],
+              "e": 388,
+              "f": 387
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 388,
+            "f": 387,
+            "gate": null
+          },
+          {
+            "i": 0,
+            "choose": {
+              "i": 0,
+              "ok": true,
+              "reason": "OK",
+              "mag": 1,
+              "direction": -1,
+              "gate": [
+                4487,
+                384,
+                4495,
+                382,
+                4503
+              ],
+              "e": 382,
+              "f": 381
+            },
+            "atomic_native_mag": 1,
+            "atomic_native_sign": -1,
+            "selected_e": 382,
+            "f": 381,
+            "gate": null
+          }
+        ],
+        "error": null,
+        "displacement": [
+          -1.5,
+          -1.5,
+          -1.5,
+          -1.5
+        ],
+        "postchoose_sync": [
+          {
+            "i": 0,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4495,
+              382,
+              4503,
+              381,
+              4511
+            ],
+            "e": 381,
+            "f": 379
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4493,
+              388,
+              4501,
+              387,
+              4509
+            ],
+            "e": 387,
+            "f": 385
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4491,
+              394,
+              4499,
+              393,
+              4507
+            ],
+            "e": 393,
+            "f": 391
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "reason": "OK",
+            "mag": 2,
+            "direction": -1,
+            "gate": [
+              4489,
+              399,
+              4497,
+              398,
+              4505
+            ],
+            "e": 398,
+            "f": 396
+          }
+        ],
+        "post_sector_sizes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_ok": 1,
+        "bond_ok": 1,
+        "supports_ok": 1,
+        "pair_incidence": [
+          2,
+          2,
+          5
+        ],
+        "cq": {
+          "nodes": 265,
+          "edges": 582,
+          "iso_prev": 0
+        },
+        "all_v1_disp": 0,
+        "all_v2_disp": 0
+      }
+    ],
+    "initial_deleted": 4,
+    "initial_deleted_rels": [
+      "(408, 406, 407)",
+      "(414, 412, 413)",
+      "(420, 418, 419)",
+      "(425, 423, 424)"
+    ],
+    "postpulse_choose": [
+      {
+        "i": 0,
+        "ok": true,
+        "reason": "OK",
+        "mag": 2,
+        "direction": -1,
+        "gate": [
+          4367,
+          406,
+          4375,
+          405,
+          4383
+        ],
+        "e": 405,
+        "f": 403
+      },
+      {
+        "i": 1,
+        "ok": true,
+        "reason": "OK",
+        "mag": 2,
+        "direction": -1,
+        "gate": [
+          4365,
+          412,
+          4373,
+          411,
+          4381
+        ],
+        "e": 411,
+        "f": 409
+      },
+      {
+        "i": 2,
+        "ok": true,
+        "reason": "OK",
+        "mag": 2,
+        "direction": -1,
+        "gate": [
+          4363,
+          418,
+          4371,
+          417,
+          4379
+        ],
+        "e": 417,
+        "f": 415
+      },
+      {
+        "i": 3,
+        "ok": true,
+        "reason": "OK",
+        "mag": 2,
+        "direction": -1,
+        "gate": [
+          4361,
+          423,
+          4369,
+          422,
+          4377
+        ],
+        "e": 422,
+        "f": 420
+      }
+    ],
+    "lineage_ok": 1,
+    "lineage_errors": "[]",
+    "unscoped": "[]",
+    "sustained_v2_start_round": null,
+    "classifier_changed_to_v2": 1,
+    "classification": "REPAIRED_NO_ACCELERATION"
+  }
+}

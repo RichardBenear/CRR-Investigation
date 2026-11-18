@@ -1,0 +1,25 @@
+# All .zip archives are kept local only; see LOCAL_ONLY_MANIFEST.csv
+*.zip
+
+# Secrets / credentials
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+id_rsa*
+secrets.*
+
+# Python / environments
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*

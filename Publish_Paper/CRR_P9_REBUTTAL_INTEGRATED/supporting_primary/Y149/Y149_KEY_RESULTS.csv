@@ -1,0 +1,23 @@
+metric,status,value,scope
+engine,FROZEN,fbd480b86602673061ecbc091774697fe50d944eb6c7f0a8bfc971854d29f5a5,Y148 hermetic engine
+protocol,FROZEN,2e43ca3b9cfc26258feeea2fdc99b99664cd1c3a995790cecbd213e813c40503,Y149 predeclared protocol
+population,PASS,8 identities / 16 contexts,DS001 through T4R666
+context_replication,PASS,all E0_A E0_B Mi context deltas zero,primary vs replication
+Mi_rebaseline,PASS,Mi=N*(5/8)*ln2,all 8 identities
+Mi_binding,PASS_ZERO,DeltaMi=0,all composites
+E0_A_rebaseline,PASS,E0_A=6*N*ln2,all 8 identities
+E0_A_PRV_robustness,PASS,full=projected,PRV2 Y33 inertness
+alpha_A,PASS_FORMAL,5/48,development fit + holdout exact
+E0_A_binding,PASS_ZERO,DeltaE0_A=0,all composites
+E0_B_RST1_shift,RESULT,+N vs historical Y88 B,autonomous projected state
+E0_B_projected,RESULT,"48,99,101,158,160,223,223,225",identity order
+E0_B_full,DIAGNOSTIC,"56,115,117,182,184,255,255,257",includes PRV2
+E0_B_PRV_increment,RESULT,+8N,full minus projected
+alpha_B_projected,FAIL_STRUCTURAL,0.008045643729281142,development zero-intercept fit
+alpha_B_holdout_max_abs_rel,RESULT,0.0621212470333416,no refit
+same_N_B,FAIL,"D2 +2; T3 +2; T4R666 +2 while Mi ties",structural mismatch
+B_binding,RESULT,"0,3,5,14,16,31,31,33",relative to N*DS001
+long_stability,PASS,48/48 periods zero A span,DS001 D2R5 T4R666 both contexts
+historical_Y5_E0,CLOSED_UNDEFINED,not redefined by Y149,off-manifold recurrence energy
+physical_mass_energy,NOT_ESTABLISHED,formal A proportionality is not independent evidence,Y149 interpretation
+Y150,RECOMMENDED,Autonomous transition-response inertial binding test,next stage

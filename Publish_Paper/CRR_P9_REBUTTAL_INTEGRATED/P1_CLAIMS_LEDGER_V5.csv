@@ -1,0 +1,67 @@
+claim_id,subclaim_id,statement,value_or_result,stage,primary_source,verification_status,notes
+1,1a,Destructive branch fraction at contaminated source,1/3 exact,early canonical program,CRR_White_Paper_Draft (1).md,SYNTHESIS_VERIFIED_PRIMARY_PENDING,Separate destructive-branch fraction remains primary-pending; keep this number out of final main quantitative text unless primary artifact is surfaced.
+1,1b,Canonical exact repair census,0/142,early canonical program,CANONICAL_0A4_K_REPORT.md,PRIMARY_VERIFIED,P7 surfaced CANONICAL_0A4_K_REPORT.md: all 142 destructive branches tested in the complete fixed-size predictive quotient; primary-verified.
+1,1c,Canonical complete fixed-size predictive-quotient repair scope,0/142,early canonical program,CANONICAL_0A4_K_REPORT.md,PRIMARY_VERIFIED,P7 corrected the earlier synthesis label: CANONICAL_0A4_K_REPORT.md states all 142 destructive branches were tested in the complete fixed-size predictive quotient; this is not a bounded depth-4 search.
+2,2a,Rules exhaustively evaluated,77314,W,STAGE_W_FULL_SEARCH_REPORT.md,PRIMARY_VERIFIED,All reachable five-role state graphs resolved
+2,2b,Rules with closed full-turnover particle SCC,80,W,STAGE_W_FULL_SEARCH_REPORT.md,PRIMARY_VERIFIED,66 period-2 and 14 period-3
+2,2c,Rule 55744 producer-flow survival at 2k,96.71%,W,STAGE_W_FULL_SEARCH_REPORT.md,PRIMARY_VERIFIED,
+2,2d,Rule 55744 producer-flow survival four 5k histories,96.920% +/- 0.182%,W,STAGE_W_FULL_SEARCH_REPORT.md,PRIMARY_VERIFIED,
+2,2e,Rule 55744 producer-flow survival at 80k,96.828%,W,STAGE_W_FULL_SEARCH_REPORT.md,PRIMARY_VERIFIED,
+2,2f,Rule 55744 natural particle-support occurrences at 80k,8113,W,STAGE_W_FULL_SEARCH_REPORT.md,PRIMARY_VERIFIED,Occurrences overlap; not independent particle count
+2,2g,Rule 55744 local ball-growth dimension,~4.6,W,STAGE_W_FULL_SEARCH_REPORT.md,PRIMARY_VERIFIED,Stage W reports d_eff≈4.67 for radii 2–6 and ≈4.57 through radius 8; paper shorthand ~4.6
+3,3a,Same-law complete-manifold identities by Y80,8,Y80,STAGE_Y80_FBCL_N4_R5_R6_COMPLETE_MANIFOLD_CENSUS_REPORT.md,PRIMARY_VERIFIED,DS001 plus seven composites
+3,3b,Complete-manifold composites by Y80,7,Y80,STAGE_Y80_FBCL_N4_R5_R6_COMPLETE_MANIFOLD_CENSUS_REPORT.md,PRIMARY_VERIFIED,
+3,3c,Y80 stationary passing contexts,432/432,Y80,STAGE_Y80_FBCL_N4_R5_R6_COMPLETE_MANIFOLD_CENSUS_REPORT.md,PRIMARY_VERIFIED,
+3,3d,Y80 measured stationary proper periods,8640/8640,Y80,STAGE_Y80_FBCL_N4_R5_R6_COMPLETE_MANIFOLD_CENSUS_REPORT.md,PRIMARY_VERIFIED,
+4,4a,Y118 causal-role automaton microstates,4,Y118,STAGE_Y118_MINIMAL_BOND_RELAY_AUTOMATON_REPORT.md,PRIMARY_VERIFIED,Four role-resolved microstates derived from literal causal roles
+4,4b,Y118 blind N5 state transitions exact,4032/4032,Y118,STAGE_Y118_MINIMAL_BOND_RELAY_AUTOMATON_REPORT.md,PRIMARY_VERIFIED,Blind N5 state transitions 4032/4032 exact
+4,4c,Y119 order-bit closure exact,4032/4032,Y119,STAGE_Y119_SYMBOLIC_RELAY_CLOSURE_REPORT.md,PRIMARY_VERIFIED,All 4032 N5 full state/current predictions exact with local order bit
+4,4d,Y119 role-resolved automaton minimal states,4,Y119,STAGE_Y119_SYMBOLIC_RELAY_CLOSURE_REPORT.md,PRIMARY_VERIFIED,Formal minimum: 4 role-resolved states; 3 constitutive states
+5,5a,Y121 maximum disjoint neighbor count,2,Y121,STAGE_Y121_MAXIMUM_RENEWABLE_COORDINATION_REPORT.md,PRIMARY_VERIFIED,Geometric packing result
+5,5b,Y121 formed degree-2 cases,48/48,Y121,STAGE_Y121_MAXIMUM_RENEWABLE_COORDINATION_REPORT.md,PRIMARY_VERIFIED,
+5,5c,Y121 exact scored edge transitions,768/768,Y121,STAGE_Y121_MAXIMUM_RENEWABLE_COORDINATION_REPORT.md,PRIMARY_VERIFIED,
+5,5d,Y122 graph-local candidate supports,50,Y122,STAGE_Y122_LOCAL_CONTACT_DIRECTION_ATLAS_REPORT.md,PRIMARY_VERIFIED,30 oriented causal-role classes
+5,5e,Y122 robust bidirectional contacts,4,Y122,STAGE_Y122_LOCAL_CONTACT_DIRECTION_ATLAS_REPORT.md,PRIMARY_VERIFIED,Offsets diagnostic only: -6 -5 +5 +6
+5,5f,Y122 compatibility graph,"K2,2",Y122,STAGE_Y122_LOCAL_CONTACT_DIRECTION_ATLAS_REPORT.md,PRIMARY_VERIFIED,Maximum clique = 2
+6,6a,Constitutive future history-independent,384/384,Y130-Y131,STAGE_Y130_MATURE_LOCAL_STATE_SUFFICIENCY_REPORT.md,PRIMARY_VERIFIED,384/384 mature transitions exact across two centers; constitutive future independent of formation coordinates
+6,6b,Formation fossil deletion no constitutive effect,416/416 and 384/384,Y131,STAGE_Y131_CAUSAL_WAKE_DECOUPLING_REPORT.md,PRIMARY_VERIFIED,Fossil deletion: 416/416 local states and 384/384 mature transitions exact; external memory caveat retained
+7,7a,IGR1 relabel covariance tests,11520/11520,Y142,Y142_CHECKPOINT_FOR_Y143.md,PRIMARY_VERIFIED,Old scalar formula only 2/11520
+7,7b,Y148 integrated rest periods,640/640,Y148,STAGE_Y148_INTEGRATED_AUTONOMOUS_REST_GRAMMAR_REGRESSION_AND_ENGINE_FREEZE_REPORT.md,PRIMARY_VERIFIED,Primary Y148 report directly records 640/640 mature rest periods.
+7,7c,Y148 relabel checks,560/560,Y148,STAGE_Y148_INTEGRATED_AUTONOMOUS_REST_GRAMMAR_REGRESSION_AND_ENGINE_FREEZE_REPORT.md,PRIMARY_VERIFIED,"Primary Y148 report directly records 560/560 phase-detector, PRV-token, and global gate-set covariance checks."
+7,7d,Y148 rest-to-motion handoffs,28/28,Y148,STAGE_Y148_INTEGRATED_AUTONOMOUS_REST_GRAMMAR_REGRESSION_AND_ENGINE_FREEZE_REPORT.md,PRIMARY_VERIFIED,Primary Y148 report directly records 28/28 rest-to-motion handoffs; motion-to-rest continuation also closes 14/14.
+8,8a,Y163 N5 repeated two-speed round-trip cases,44/44,Y163,Y163_N5_STAGE_CHECKPOINT.md,PRIMARY_VERIFIED,Externally triggered environmental interventions
+8,8b,Y163 intervention legs,176/176,Y163,Y163_N5_STAGE_CHECKPOINT.md,PRIMARY_VERIFIED,
+8,8c,Y163 untouched controls,44/44,Y163,Y163_N5_STAGE_CHECKPOINT.md,PRIMARY_VERIFIED,
+8,8d,Y163 exact graph comparisons,22528,Y163,Y163_N5_STAGE_CHECKPOINT.md,PRIMARY_VERIFIED,
+8,8e,Settled period-2 |v|=3/2 qualification,16/16 contexts,Y161,Y164_A_CHECKPOINT.md,PRIMARY_VERIFIED_VIA_LATER_CHECKPOINT,Later checkpoint cites Y161 inherited verified evidence
+8,8f,Original v1->v2 acceleration population,28/28,Y160,Y164_A_CHECKPOINT.md,PRIMARY_VERIFIED_VIA_LATER_CHECKPOINT,Later checkpoint cites Y160 inherited verified evidence
+8,8g,Causal mechanism of the Y160 speed staircase,"Compound events read pre-event geometry; a sector deletion can affect only the next event, producing the 1→3/2→2 sequence",Y160,Y164-A inherited-evidence checkpoint + current companion synthesis,PRIMARY_VERIFIED_VIA_LATER_CHECKPOINT,Mechanism explains lag; does not by itself define inertial mass.
+8,8h,Preregistered return-to-v1 settling law,t_first=sum(bond spacings)+4; N5=24+n_R6; T4 24/24; N5 44/44,Y163,Y163 N5 completion checkpoint + current companion synthesis,PRIMARY_VERIFIED,Predicted before relevant data and not used as pass criterion; candidate future independent response observable.
+9,9a,Y81/Y149 inertial-curvature proxy,M_curv=N*(5/8)*ln2,Y81/Y149,Y149_MI_ALL.csv; Y149_KEY_RESULTS.csv,PRIMARY_VERIFIED,Primary Y149 tables give M_curv=N*(5/8)*ln2 for all 8 identities in primary and replication contexts; retain M_curv terminology rather than unqualified Mi.
+9,9b,Same-N binding residual of M_curv,0,Y149,Y149_MI_ALL.csv; Y149_KEY_RESULTS.csv,PRIMARY_VERIFIED,Primary Y149 key results record Mi_binding=PASS_ZERO / DeltaMi=0 for all composites.
+9,9c,Y149 topology-sensitive Candidate B contradiction,structural FAIL,Y149,Y149_KEY_RESULTS.csv; Y149_POPULATION_REBASELINE.csv,PRIMARY_VERIFIED,Primary Y149 results record alpha_B_projected=FAIL_STRUCTURAL and same-N B differences while M_curv ties.
+10,10a,Surviving exact dynamic balance,I_out=8N,Y112,STAGE_Y112_GRAMMAR_DERIVED_CONSERVATION_LAWS_REPORT.md,PRIMARY_VERIFIED,Constituent/support invariant
+10,10b,Surviving exact dynamic balance,I_in=16N,Y112,STAGE_Y112_GRAMMAR_DERIVED_CONSERVATION_LAWS_REPORT.md,PRIMARY_VERIFIED,I_in=2 I_out on measured states
+10,10c,Nontrivial independent linear state invariant in Y112 80D basis,none,Y112,STAGE_Y112_GRAMMAR_DERIVED_CONSERVATION_LAWS_REPORT.md,PRIMARY_VERIFIED,Basis-bounded negative
+10,10d,Simple conserved-exchange candidates in signed causal-role ledger,4 predeclared candidates fail 0/4 each,Y165-D3-7H,Y165_D37H_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,Independent negative basis from Y112: predictive signed causal bookkeeping is not a conserved scalar.
+11,11a,Same-N pairwise contrast correspondence,38/38,Y155,Y155_KEY_RESULTS.csv; Y155_SAME_N_PAIRWISE.csv; Y155_COMPARATOR_POPULATION.csv,PRIMARY_VERIFIED,Primary Y155 tables directly record 38/38 exact same-N contrasts for both comparators; interpretation remains paired with Y158.
+11,11b,Total-value gate,0/7 development + 0/11 N5,Y155,Y155_KEY_RESULTS.csv; Y155_COMPARATOR_POPULATION.csv,PRIMARY_VERIFIED,Primary Y155 key results directly record total-value proportionality failure: 0/7 development and 0/11 N5 for both comparators.
+11,11c,Strict producer-owned bond action,0 for R5 and R6,Y158,STAGE_Y158_PRODUCER_OWNED_SELF_ENVIRONMENT_BOND_ACTION_REPORT.md,PRIMARY_VERIFIED,Primary Y158 report: producer-owned BOND action is zero for R5/R6 in 8/8 dimer contexts; prior Y154/Y155 signal reinterpreted as environmental relay-incidence dressing.
+11,11d,Y151 forward-only sign versus Y155 closed-path correction,Y151: ΔM_cross=(171/16)ΔB_proj=−(171/16)ΔF_flux; Y155: ΔM_adm=(277/48)ΔF_flux=−(277/48)ΔB_proj,Y151/Y155,STAGE_Y151_BOND_LOCAL_EVEN_ODD_TRANSITION_DECOMPOSITION_AND_BLIND_TOPOLOGY_VALIDATION_REPORT.md; Y155_KEY_RESULTS.csv; Y155_SAME_N_PAIRWISE.csv,PRIMARY_VERIFIED,"Primary records show different quantities and coefficients. Equal/opposite comparator structure survives, but alignment reverses; Y155 closed admissible path governs later interpretation."
+12,12a,Safe original-law rest-local coupler eligibility,negative,Y165-D0,Y165_D0_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,Operationally blocked within preregistered classes
+12,12b,Producer-owned lifetime areas,160 DS001;316 D2R5;320 D2R6,Y165-D2,Y165_D2_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,Activity proxy only; not energy
+12,12c,C3 phases with syntactic rival,6/8,Y165-C3,Y165_C3_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,
+12,12d,C3 viable rival-gate phases,0/8,Y165-C3,Y165_C3_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,
+12,12e,C3 rival/native overlap,4/5 in 6/6,Y165-C3,Y165_C3_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,Native rest gate becomes unavailable
+12,12f,Operational E0/independent Mi status,undefined,Y165-C/D2/C3,Y165_D2_FINAL_CHECKPOINT.md; Y165_C3_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,Not evidence of zero mass/energy
+12,12g,Producer-owned lifetime activity areas,DS001 160; D2R5 316; D2R6 320,Y165-D2,Y165_D2_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,"Topology-sensitive activity proxy only; no independent exchange channel, conservation closure, or path independence, so not E0."
+13,13a,D37Q fresh comparisons,72,Y165-D37Q,Y165_D37Q_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,4 seeds x 9 displacements x 2 signs
+13,13b,D37Q native map predictions exact,72/72,Y165-D37Q,Y165_D37Q_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,Exact k position role sign sector sign
+13,13c,D37Q source differences classified leader-formation-descendant,72/72,Y165-D37Q,Y165_D37Q_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,
+13,13d,D37Q source-slot normalization intervention removes anomaly,24/24,Y165-D37Q,Y165_D37Q_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,Native full 192-global-event run also null 24/24
+13,13e,D37R matched mature leader state across preparation methods,24/24,Y165-D37R,Y165_D37R_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,
+13,13f,D37R P/O same map/native response,20/24,Y165-D37R,Y165_D37R_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,4/24 preparation-sensitive cases
+13,13g,D37R classification,PREPARATION_PROCEDURE_DEPENDENT_FORMATION_MEMORY,Y165-D37R,Y165_D37R_FINAL_CHECKPOINT.md,PRIMARY_VERIFIED,Not generic particle-particle exchange field
+14,14a,Scaffolding-control catalog,artifact-level catalog pending,Section 10A,CRR_White_Paper_Draft.md Section 10A,CURRENT_SYNTHESIS_CATALOG_VERIFIED_PRIMARY_LINKS_PENDING,Current synthesis contains explicit artifact/reclassification table through D37R and C3; each row still needs primary-stage link before submission
+14,14b,Standing scaffold-removal rule,methodological policy,program-wide,CRR_White_Paper_Draft.md Section 10A,CURRENT_METHOD_POLICY_VERIFIED,Standing rule: every new positive result must pass a preregistered scaffold-removal control aimed at the most plausible apparatus explanation
+14,14c,Rule-lineage disambiguation and Rule-55584→FBCL bridge,Rule 55584 ≠ Rule 55744; Y33/Y47 grammar shares 0/8 outputs with Rule 55584; 0/576 transfer trajectories survive first event; Y33/Y46/Y47 dynamics named FBCL at Y50,Stage W / Y48 / Y50,W21_CLOSED_PARTICLE_HITS.csv; STAGE_Y48_DISTINCT_CARRIER_CURVATURE_TRANSFER_REPORT.md; STAGE_Y50_FBCL_CARRIER_POPULATION_DISCOVERY_REPORT.md,PRIMARY_VERIFIED,"Historical lineage control: Rule 55584 and 55744 are separate Stage-W hits. The co-designed Y33/Y46/Y47 law is not portable to Rule 55584 and is the same dynamics explicitly named FBCL at Y50, not a separate fourth law."

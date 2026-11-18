@@ -1,0 +1,22 @@
+item,status,result
+Protocol,FROZEN,SHA256 8c257af306a2eb6e5816d3b58d1a7d171ff3dccc55d328b740405097f101b54d
+Population,RESULT,7 original composites x P/R x +/- = 28 mature-v1 cases; 84 matched branches
+Intrinsic rounds,RESULT,1344 total scored macro-rounds; 4224 constituent compound events
+CONTROL,PASS,448/448 exact signed v1 rounds
+PULSE exact-v2 primary gate,NO,0/28 sustained exact-v2 cases; 0 exact-v2 rounds
+PULSE discovery,EXACT_TESTED,"round1 |v|=1; rounds2-16 |v|=3/2 in 420/420; classifier alternates 2,1 in 28/28"
+PULSE CQ1,NO_SINGLE_PERIOD_SETTLEMENT,0/28 within 16 rounds
+CLAMP autonomous acceleration,PASS,28/28 cases
+CLAMP kinematic law,EXACT,round1 |v|=1; round2 |v|=3/2; rounds3-16 |v|=2 in 392/392
+CLAMP intervention support,FINITE,one SECTOR_ENV deletion/constituent at rounds1 and2 only; zero deletions rounds3-16
+CLAMP actual deletions,RESULT,176 relation deletions = 2 x 88 constituent-frontier deletions
+CLAMP natural v2,PASS,28/28 classifier naturally v2 from round3 onward without further deletions
+CQ1 dressing,RESULT,kinematic v2 begins round3; CQ1 settles rounds 8-15 depending N/sign/R5
+All-R6 CQ1 law,EXACT,"L_CQ=3N+3 for N=2,3,4"
+One-R5 CQ1 law,EXACT_TESTED,sign +:3N+3; sign -:3N+2 on original one-R5 manifold
+Core/bond/support/lineage,PASS,all 84 branches / 1344 scored rounds
+Primary verdict,PROMOTE_MODEL_INTERNAL_CAUSALITY,FINITE_ENV_SECTOR_SUPPRESSION_CAUSES_AUTONOMOUS_V1_TO_V2_ACCELERATION_ON_TESTED_ORIGINAL_COMPOSITE_MANIFOLD
+Y154 pair action causality,NOT_REOPENED,Y159 pair-relay channel remains downstream constitutive dressing
+N5,SEALED,0 cases opened
+Mass/rest-energy comparators,SEALED,"F_flux, Candidate B, Y81 Mi, Y155 scales/alpha unopened"
+Y161,RECOMMENDED,Autonomous velocity-spectrum / reversible ENV sector-control test; characterize pulse v=3/2 limit cycle and derive lawful v2->v1 control

@@ -1,0 +1,13 @@
+item,verdict,result
+Protocol,FROZEN,d77267767a7e94075849744f4d7138de23434905932e5a702e9d5ab28eb0fceb
+Binding scale F,EXACT,kappa_F=277/48
+Binding scale Candidate B,EXACT,kappa_B=-277/48
+Binding identities,PASS,15/15 F exact; 15/15 B exact
+Held-out topology identities,PASS,14/14 F exact; 14/14 B exact
+All same-N pairwise topology contrasts,PASS,38/38 F exact; 38/38 B exact
+Y81 topology control,FAIL_BINDING_SECTOR,0/38 nonzero Y154 contrasts represented
+F total-value proportionality,FAIL,0/7 development exact; 0/11 N5 exact
+B total-value proportionality,FAIL,0/7 development exact; 0/11 N5 exact
+Primary verdict,PASS,EXACT_R5_SUBSTITUTION_CORRESPONDENCE_WITH_CAUSAL_REST_CONTENT
+Total mass-energy equivalence,NOT ESTABLISHED,Y154 is bond-local; one-body action missing
+Y156,RECOMMENDED,Autonomous one-body admissible-path action and full inertial decomposition

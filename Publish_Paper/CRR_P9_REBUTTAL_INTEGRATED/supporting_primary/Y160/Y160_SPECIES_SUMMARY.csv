@@ -1,0 +1,8 @@
+species,N,contexts,control_v1_rounds,pulse_v1p5_rounds,pulse_alt_cases,clamp_accel_cases,clamp_v2_rounds,clamp_cq_ready_rounds
+D2R5,2,4,64,60,4,4,56,8|9
+D2R6,2,4,64,60,4,4,56,9
+T3R65,3,4,64,60,4,4,56,11|12
+T3R66,3,4,64,60,4,4,56,12
+T4R656,4,4,64,60,4,4,56,14|15
+T4R665,4,4,64,60,4,4,56,14|15
+T4R666,4,4,64,60,4,4,56,15

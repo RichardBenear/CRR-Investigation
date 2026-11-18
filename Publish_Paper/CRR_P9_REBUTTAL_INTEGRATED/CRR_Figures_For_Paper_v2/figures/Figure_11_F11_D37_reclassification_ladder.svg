@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="532.8pt" height="446.4pt" viewBox="0 0 532.8 446.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-02T12:44:58.315267</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.4 
+L 532.8 446.4 
+L 532.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 19.1232 90.276923 
+L 218.1888 90.276923 
+Q 222.336 90.276923 222.336 85.846154 
+L 222.336 61.476923 
+Q 222.336 57.046154 218.1888 57.046154 
+L 19.1232 57.046154 
+Q 14.976 57.046154 14.976 61.476923 
+L 14.976 85.846154 
+Q 14.976 90.276923 19.1232 90.276923 
+z
+" clip-path="url(#p6d64575b09)" style="fill: #eef1f4; stroke: #3a4250; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 30.528 145.661538 
+L 229.5936 145.661538 
+Q 233.7408 145.661538 233.7408 141.230769 
+L 233.7408 116.861538 
+Q 233.7408 112.430769 229.5936 112.430769 
+L 30.528 112.430769 
+Q 26.3808 112.430769 26.3808 116.861538 
+L 26.3808 141.230769 
+Q 26.3808 145.661538 30.528 145.661538 
+z
+" clip-path="url(#p6d64575b09)" style="fill: #eef1f4; stroke: #3a4250; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 41.9328 201.046154 
+L 240.9984 201.046154 
+Q 245.1456 201.046154 245.1456 196.615385 
+L 245.1456 172.246154 
+Q 245.1456 167.815385 240.9984 167.815385 
+L 41.9328 167.815385 
+Q 37.7856 167.815385 37.7856 172.246154 
+L 37.7856 196.615385 
+Q 37.7856 201.046154 41.9328 201.046154 
+z
+" clip-path="url(#p6d64575b09)" style="fill: #eef1f4; stroke: #3a4250; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 53.3376 256.430769 
+L 252.4032 256.430769 
+Q 256.5504 256.430769 256.5504 252 
+L 256.5504 227.630769 
+Q 256.5504 223.2 252.4032 223.2 
+L 53.3376 223.2 
+Q 49.1904 223.2 49.1904 227.630769 
+L 49.1904 252 
+Q 49.1904 256.430769 53.3376 256.430769 
+z
+" clip-path="url(#p6d64575b09)" style="fill: #eef1f4; stroke: #3a4250; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 64.7424 311.815385 
+L 263.808 311.815385 
+Q 267.9552 311.815385 267.9552 307.384615 
+L 267.9552 283.015385 
+Q 267.9552 278.584615 263.808 278.584615 
+L 64.7424 278.584615 
+Q 60.5952 278.584615 60.5952 283.015385 
+L 60.5952 307.384615 
+Q 60.5952 311.815385 64.7424 311.815385 
+z
+" clip-path="url(#p6d64575b09)" style="fill: #eef1f4; stroke: #3a4250; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 76.1472 367.2 
+L 275.2128 367.2 
+Q 279.36 367.2 279.36 362.769231 
+L 279.36 338.4 
+Q 279.36 333.969231 275.2128 333.969231 
+L 76.1472 333.969231 
+Q 72 333.969231 72 338.4 
+L 72 362.769231 
+Q 72 367.2 76.1472 367.2 
+z
+" clip-path="url(#p6d64575b09)" style="fill: #eef1f4; stroke: #3a4250; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 87.552 422.584615 
+L 286.6176 422.584615 
+Q 290.7648 422.584615 290.7648 418.153846 
+L 290.7648 393.784615 
+Q 290.7648 389.353846 286.6176 389.353846 
+L 87.552 389.353846 
+Q 83.4048 389.353846 83.4048 393.784615 
+L 83.4048 418.153846 
+Q 83.4048 422.584615 87.552 422.584615 
+z
+" clip-path="url(#p6d64575b09)" style="fill: #ffffff; stroke: #b23a48; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #22262b" x="21.1968" y="75.758663" transform="rotate(-0 21.1968 75.758663)">A partner interaction (wake)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b737d" x="230.112" y="68.393101" transform="rotate(-0 230.112 68.393101)">D3-5</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #22262b" x="230.112" y="82.211661" transform="rotate(-0 230.112 82.211661)">trailing receiver slows in pairs, never in solo worlds</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 36.7488 92.274745 
+Q 36.7488 97.199497 36.7488 101.229822 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 38.5488 97.629822 
+L 36.7488 101.229822 
+L 34.9488 97.629822 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #22262b" x="32.6016" y="131.143279" transform="rotate(-0 32.6016 131.143279)">Deposited history, not the partner's current state</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b737d" x="241.5168" y="123.777716" transform="rotate(-0 241.5168 123.777716)">D3-6</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(241.5168 133.601958)">leader introduced first: 24/24 respond; solos 0/96;</text>
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(241.5168 141.590595)">removing the pre-receiver relation restores speed 41/41</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 48.1536 147.65936 
+Q 48.1536 152.584112 48.1536 156.614438 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 49.9536 153.014438 
+L 48.1536 156.614438 
+L 46.3536 153.014438 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #22262b" x="44.0064" y="186.527894" transform="rotate(-0 44.0064 186.527894)">A persistent remnant, not a propagating signal</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b737d" x="252.9216" y="179.162332" transform="rotate(-0 252.9216 179.162332)">D3-7A–C</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(252.9216 188.986573)">persists 143/143; leader's later events reach the receiver 0/413;</text>
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(252.9216 196.97521)">head-on approach: no response before contact 0/32</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 59.5584 203.043975 
+Q 59.5584 207.968728 59.5584 211.999053 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 61.3584 208.399053 
+L 59.5584 211.999053 
+L 57.7584 208.399053 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #22262b" x="55.4112" y="241.91251" transform="rotate(-0 55.4112 241.91251)">One source slot, changed in two ways</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b737d" x="264.3264" y="234.546947" transform="rotate(-0 264.3264 234.546947)">D3-7G–I</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(264.3264 244.371189)">additive or subtractive (8/8 ledger); no simple conservation;</text>
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(264.3264 252.359826)">capture, no closed exchange cycle (0/8)</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 70.9632 258.428591 
+Q 70.9632 263.353343 70.9632 267.383668 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 72.7632 263.783668 
+L 70.9632 267.383668 
+L 69.1632 263.783668 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #22262b" x="66.816" y="297.297125" transform="rotate(-0 66.816 297.297125)">Not the fossil, not the start site, not the scheduler</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b737d" x="275.7312" y="289.931563" transform="rotate(-0 275.7312 289.931563)">D3-7J–N</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(275.7312 299.755804)">fossil deleted: still 8/8; start-site boundary surgery: no effect;</text>
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(275.7312 307.744441)">onset unchanged under three random streams (24/24)</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 82.368 313.813206 
+Q 82.368 318.737959 82.368 322.768284 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 84.168 319.168284 
+L 82.368 322.768284 
+L 80.568 319.168284 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #22262b" x="78.2208" y="352.68174" transform="rotate(-0 78.2208 352.68174)">A worldline encounter at the leader's formation site</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b737d" x="287.136" y="345.316178" transform="rotate(-0 287.136 345.316178)">D3-7O–Q</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(287.136 355.14042)">predicted before running: 8/8, then 72/72;</text>
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(287.136 363.129056)">normalizing the source slot removes the response 24/24</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 93.7728 369.197822 
+Q 93.7728 374.122574 93.7728 378.152899 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 95.5728 374.552899 
+L 93.7728 378.152899 
+L 91.9728 374.552899 
+" style="fill: none; stroke: #6b737d; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #22262b" x="89.6256" y="408.036668" transform="rotate(-0 89.6256 408.036668)">Preparation-dependent formation memory</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b737d" x="298.5408" y="400.700793" transform="rotate(-0 298.5408 400.700793)">D3-7R</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(298.5408 410.525035)">identical mature leader from two preparations (24/24),</text>
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; fill: #22262b" transform="translate(298.5408 418.513672)">but remnants differ in 4/24; inherited law holds 17/24</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b737d" x="14.976" y="23.815385" transform="rotate(-0 14.976 23.815385)">interpretation supported at each step  →  evidence that forced the next step</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6d64575b09">
+   <rect x="7.2" y="7.2" width="518.4" height="432"/>
+  </clipPath>
+ </defs>
+</svg>
